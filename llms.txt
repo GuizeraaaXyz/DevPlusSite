@@ -7,6 +7,7 @@
 - Página inicial: https://devplus-control-whca.vercel.app/
 - Download direto do instalador Windows x64: https://github.com/GuizeraaaXyz/devplus-control/releases/latest/download/DevPlus-Control-Setup.exe
 - Releases e histórico de versões: https://github.com/GuizeraaaXyz/devplus-control/releases
+- Atendimento e compra de licença mensal pelo WhatsApp: https://wa.me/5517996662727
 - Código-fonte: https://github.com/GuizeraaaXyz/devplus-control
 - Problemas e suporte: https://github.com/GuizeraaaXyz/devplus-control/issues
 
@@ -14,5 +15,6 @@
 
 - O instalador é distribuído como um asset da release mais recente do GitHub.
 - O nome atual do instalador é `DevPlus-Control-Setup.exe`.
+- A licença mensal é comprada pelo atendimento no WhatsApp; a chave é enviada após a confirmação do pagamento e o prazo começa na primeira ativação.
 - Consulte a página de releases para versão atual, notas e requisitos atualizados.
 - O projeto é baseado no SoulFire e mantém os avisos de atribuição e licença presentes no repositório.

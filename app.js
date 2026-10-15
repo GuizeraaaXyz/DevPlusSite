@@ -13,6 +13,14 @@ for (const downloadLink of document.querySelectorAll("[data-download-link]")) {
   downloadLink.download = "DevPlus-Control-Setup.exe";
 }
 
+for (const whatsappLink of document.querySelectorAll("[data-whatsapp-link]")) {
+  if (siteConfig.whatsappUrl) {
+    whatsappLink.href = siteConfig.whatsappUrl;
+    whatsappLink.target = "_blank";
+    whatsappLink.rel = "noopener noreferrer";
+  }
+}
+
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNavigation = document.querySelector(".site-nav");
 

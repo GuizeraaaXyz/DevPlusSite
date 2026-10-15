@@ -15,6 +15,8 @@ O site aponta para o asset `DevPlus-Control-Setup.exe` da release mais recente d
 
 Atualize também `site-config.js` com a versão do instalador publicado. O arquivo não contém chaves, tokens ou segredos. O instalador não deve ser copiado para esta pasta nem para o deploy estático da Vercel.
 
+A seção de licença direciona os clientes ao WhatsApp configurado em `site-config.js`. Depois de confirmar o pagamento, envie a chave mensal para o cliente ativar no aplicativo; o prazo começa na primeira ativação.
+
 ## Indexação e descoberta
 
 - `robots.txt` permite indexação pública e aponta para o sitemap.

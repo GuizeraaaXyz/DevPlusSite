@@ -569,7 +569,7 @@ h1 span {
   width: 58px;
   height: 58px;
   flex: 0 0 58px;
-  place-items: center;  
+  place-items: center;
 }
 
 .download-mark img {
@@ -1231,5 +1231,128 @@ h1 {
   .site-nav > a:not(.nav-download) {
     border-bottom-color: var(--line);
     color: #e4ebf4;
+  }
+}
+
+.license-section {
+  padding-block: 22px 110px;
+}
+
+.license-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(36px, 8vw, 96px);
+  padding: clamp(28px, 6vw, 68px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.license-copy {
+  max-width: 460px;
+}
+
+.license-copy h2 {
+  margin: 0;
+  color: #f5f7fc;
+  font-size: clamp(30px, 4vw, 43px);
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  line-height: 1.12;
+}
+
+.license-copy > p:not(.eyebrow) {
+  margin: 16px 0 23px;
+  color: #aeb9c9;
+  line-height: 1.7;
+}
+
+.button-whatsapp {
+  min-height: 46px;
+  gap: 9px;
+  padding-inline: 19px;
+  background: #21c273;
+  color: #07170f;
+  font-weight: 700;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.button-whatsapp:hover {
+  transform: translateY(-1px);
+  background: #45d88e;
+}
+
+.license-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.license-steps li {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  gap: 15px;
+  padding-block: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.license-steps li:first-child {
+  padding-top: 0;
+}
+
+.license-steps li > span {
+  padding-top: 3px;
+  color: #31c7f5;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.license-steps h3 {
+  margin: 0 0 4px;
+  color: #edf3fb;
+  font-size: 14px;
+}
+
+.license-steps p {
+  margin: 0;
+  color: #aeb9c9;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.license-note {
+  grid-column: 1 / -1;
+  margin: -16px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: #8997aa;
+  font-size: 12px;
+}
+
+@media (width <= 900px) {
+  .license-panel {
+    gap: 36px;
+  }
+}
+
+@media (width <= 680px) {
+  .license-section {
+    padding-block: 0 78px;
+  }
+
+  .license-panel {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding: 25px 22px;
+  }
+
+  .license-note {
+    margin-top: -12px;
+  }
+
+  .button-whatsapp {
+    width: 100%;
+    justify-content: center;
   }
 }
