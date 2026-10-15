@@ -17,6 +17,8 @@ Atualize também `site-config.js` com a versão do instalador publicado. O arqui
 
 A seção de licença direciona os clientes ao WhatsApp configurado em `site-config.js`. Depois de confirmar o pagamento, envie a chave mensal para o cliente ativar no aplicativo; o prazo começa na primeira ativação.
 
+A página apresenta a licença mensal por R$ 14,90 e deixa claro que a compra é combinada manualmente pelo WhatsApp. O Dev+ Control é um cliente desktop executado no PC do usuário; não é um serviço de hospedagem de bots.
+
 ## Indexação e descoberta
 
 - `robots.txt` permite indexação pública e aponta para o sitemap.

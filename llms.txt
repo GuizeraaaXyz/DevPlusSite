@@ -1,6 +1,6 @@
 # Dev+ Control
 
-> Cliente desktop para Windows para gerenciar instâncias, bots e scripts Minecraft.
+> Cliente desktop para Windows para conectar a servidores SoulFire compatíveis e gerenciar instâncias, bots e scripts Minecraft.
 
 ## Site
 
@@ -8,6 +8,7 @@
 - Download direto do instalador Windows x64: https://github.com/GuizeraaaXyz/devplus-control/releases/latest/download/DevPlus-Control-Setup.exe
 - Releases e histórico de versões: https://github.com/GuizeraaaXyz/devplus-control/releases
 - Atendimento e compra de licença mensal pelo WhatsApp: https://wa.me/5517996662727
+- Licença mensal anunciada: R$ 14,90. A compra e o pagamento são combinados manualmente pelo WhatsApp; a chave é enviada após confirmação.
 - Código-fonte: https://github.com/GuizeraaaXyz/devplus-control
 - Problemas e suporte: https://github.com/GuizeraaaXyz/devplus-control/issues
 
@@ -15,6 +16,7 @@
 
 - O instalador é distribuído como um asset da release mais recente do GitHub.
 - O nome atual do instalador é `DevPlus-Control-Setup.exe`.
+- O Dev+ Control é um cliente desktop executado no computador do usuário; não é hospedagem de bots na nuvem.
 - A licença mensal é comprada pelo atendimento no WhatsApp; a chave é enviada após a confirmação do pagamento e o prazo começa na primeira ativação.
 - Consulte a página de releases para versão atual, notas e requisitos atualizados.
 - O projeto é baseado no SoulFire e mantém os avisos de atribuição e licença presentes no repositório.
