@@ -1,0 +1,18 @@
+# Dev+ Control
+
+> Cliente desktop para Windows para gerenciar instâncias, bots e scripts Minecraft.
+
+## Site
+
+- Página inicial: https://devplus-control-whca.vercel.app/
+- Download direto do instalador Windows x64: https://github.com/GuizeraaaXyz/devplus-control/releases/latest/download/DevPlus-Control-Setup.exe
+- Releases e histórico de versões: https://github.com/GuizeraaaXyz/devplus-control/releases
+- Código-fonte: https://github.com/GuizeraaaXyz/devplus-control
+- Problemas e suporte: https://github.com/GuizeraaaXyz/devplus-control/issues
+
+## Informações
+
+- O instalador é distribuído como um asset da release mais recente do GitHub.
+- O nome atual do instalador é `DevPlus-Control-Setup.exe`.
+- Consulte a página de releases para versão atual, notas e requisitos atualizados.
+- O projeto é baseado no SoulFire e mantém os avisos de atribuição e licença presentes no repositório.

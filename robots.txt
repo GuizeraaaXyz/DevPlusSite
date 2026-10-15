@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devplus-control-whca.vercel.app/sitemap.xml
