@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080c14" />
+    <meta name="description" content="Aviso de privacidade do site e do aplicativo Dev+ Control: dados usados, serviços envolvidos e canal para solicitações." />
+    <link rel="canonical" href="https://devplus-control-whca.vercel.app/privacidade.html" />
+    <link rel="icon" type="image/svg+xml" href="./assets/devplus-mark.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Privacidade e dados — Dev+ Control</title>
+  </head>
+  <body class="legal-body">
+    <header class="site-header">
+      <div class="header-inner page-width">
+        <a class="brand" href="./" aria-label="Dev+ Control, início"><img src="./assets/devplus-mark.svg" alt="" width="38" height="38" /><span class="brand-name">Dev<span>+</span> Control</span></a>
+        <a class="legal-back" href="./">Voltar ao site</a>
+      </div>
+    </header>
+    <main class="legal-page page-width">
+      <p class="eyebrow"><span class="eyebrow-rule"></span> Transparência sobre dados</p>
+      <h1>Privacidade e <span>dados.</span></h1>
+      <p class="legal-lead">Este aviso explica, em linguagem direta, quais dados podem ser tratados pelo site e pelo aplicativo Dev+ Control, para quais finalidades e como falar conosco sobre eles.</p>
+      <p class="legal-updated">Última atualização: 15 de outubro de 2026.</p>
+
+      <section class="legal-card">
+        <h2>Quem mantém o projeto e como entrar em contato</h2>
+        <p>O Dev+ Control é um projeto independente mantido por seu desenvolvedor. Para dúvidas, solicitações relacionadas a dados pessoais ou exercício de direitos, entre em contato pelo <a href="https://wa.me/5517996662727?text=Ol%C3%A1%2C%20quero%20falar%20sobre%20privacidade%20e%20meus%20dados%20no%20Dev%2B%20Control." target="_blank" rel="noopener noreferrer">WhatsApp do Dev+ Control</a>. Não envie senhas, tokens de servidor ou chaves de licença completas nesse canal.</p>
+      </section>
+
+      <section class="legal-card">
+        <h2>O site</h2>
+        <p>A página pública é um site estático. Ela não oferece cadastro, formulário de compra, checkout ou conta de usuário e não carrega ferramenta própria de análise de audiência. Ao clicar para baixar, você acessa o GitHub; ao iniciar uma conversa, você acessa o WhatsApp. Esses serviços podem tratar dados de acesso conforme seus próprios avisos de privacidade.</p>
+        <p>O provedor de hospedagem do site pode processar dados técnicos necessários para entregar e proteger as páginas, de acordo com as configurações do projeto e os termos do provedor.</p>
+      </section>
+
+      <section class="legal-card">
+        <h2>O aplicativo para desktop</h2>
+        <h3>Conexão com servidores</h3>
+        <p>Endereços, tokens e configurações que você informa são usados pelo aplicativo para conectar ao servidor que você escolheu. O cliente mantém configurações no computador e envia os dados de conexão ao servidor de destino para autenticar e realizar as operações solicitadas.</p>
+        <h3>Telemetria e diagnóstico</h3>
+        <p>A compilação distribuída pode enviar eventos de uso e relatórios de erros ao serviço de telemetria PostHog configurado para o projeto, atualmente em <code>tc.soulfiremc.com</code>. Quando há conexão com um servidor SoulFire, o aplicativo pode identificar a instalação do cliente na telemetria com o identificador, e-mail, nome de usuário e função informados por esse servidor. Esses dados ajudam a entender o uso do aplicativo e investigar falhas.</p>
+        <h3>Ativação da licença</h3>
+        <p>Ao ativar ou consultar uma licença, o aplicativo envia a chave e um identificador aleatório da instalação à API de licenças por conexão HTTPS. A função de backend calcula hashes da chave e do identificador antes de consultar o banco Supabase; a base guarda esses hashes e informações necessárias para administrar a licença, como plano, estado e datas. O identificador aleatório é guardado localmente com o armazenamento seguro do sistema operacional. A plataforma do dispositivo também pode acompanhar a ativação. O endereço de rede é usado pelo backend em controles contra excesso de solicitações, com hash para esse controle.</p>
+      </section>
+
+      <section class="legal-card">
+        <h2>Serviços envolvidos</h2>
+        <ul>
+          <li><strong>Vercel:</strong> hospedagem das páginas públicas.</li>
+          <li><strong>GitHub:</strong> hospedagem do código, releases e instaladores.</li>
+          <li><strong>WhatsApp/Meta:</strong> atendimento e combinação manual da compra de licença.</li>
+          <li><strong>PostHog:</strong> telemetria de uso e diagnóstico do aplicativo, conforme a configuração da versão instalada.</li>
+          <li><strong>Supabase:</strong> backend e banco de dados usados para ativação e consulta das licenças.</li>
+        </ul>
+        <p>Cada serviço pode operar como fornecedor ou controlador independente para determinadas atividades e aplicar seus próprios termos, políticas e prazos de retenção.</p>
+      </section>
+
+      <section class="legal-card">
+        <h2>Seus pedidos sobre dados</h2>
+        <p>Você pode entrar em contato para perguntar sobre a existência e o uso de dados relacionados a você e solicitar acesso, correção ou eliminação, quando aplicável. Para localizar registros de licença, informe apenas dados suficientes para identificar a compra; não envie a chave completa em mensagens públicas. Alguns registros podem precisar ser mantidos para administrar a licença, prevenir abuso ou cumprir obrigações legais.</p>
+        <p>Mais informações sobre direitos dos titulares estão disponíveis no <a href="https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares" target="_blank" rel="noopener noreferrer">site oficial da ANPD</a>.</p>
+      </section>
+
+      <section class="legal-card">
+        <h2>Alterações neste aviso</h2>
+        <p>Este texto pode ser atualizado quando os fluxos do site ou do aplicativo mudarem. A data no início da página indica a revisão mais recente.</p>
+      </section>
+
+      <p class="legal-caveat">Este aviso descreve o funcionamento identificado no projeto e é uma informação de transparência; não representa certificação de conformidade legal. As configurações e práticas dos serviços externos podem mudar.</p>
+    </main>
+    <footer class="site-footer legal-footer"><div class="page-width footer-inner"><a class="brand footer-brand" href="./"><img src="./assets/devplus-mark.svg" alt="" width="32" height="32"/><span class="brand-name">Dev<span>+</span> Control</span></a><div class="footer-links"><a href="./licenca.html">AGPL-3.0</a><a href="./privacidade.html">Privacidade</a></div></div></footer>
+  </body>
+</html>

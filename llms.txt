@@ -5,6 +5,8 @@
 ## Site
 
 - Página inicial: https://devplus-control-whca.vercel.app/
+- Aviso de privacidade: https://devplus-control-whca.vercel.app/privacidade.html
+- Informações sobre a AGPL-3.0: https://devplus-control-whca.vercel.app/licenca.html
 - Download direto do instalador Windows x64: https://github.com/GuizeraaaXyz/devplus-control/releases/latest/download/DevPlus-Control-Setup.exe
 - Releases e histórico de versões: https://github.com/GuizeraaaXyz/devplus-control/releases
 - Atendimento e compra de licença mensal pelo WhatsApp: https://wa.me/5517996662727

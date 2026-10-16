@@ -23,6 +23,8 @@ A página apresenta a licença mensal por R$ 14,90 e deixa claro que a compra é
 
 - `robots.txt` permite indexação pública e aponta para o sitemap.
 - `sitemap.xml` lista a página inicial.
+- `licenca.html` resume a licença AGPL-3.0 e aponta para o texto integral e o código-fonte.
+- `privacidade.html` descreve os dados tratados pelo site, aplicativo e integrações identificadas no código.
 - `llms.txt` resume o produto e aponta para download, releases, código-fonte e suporte.
 - `index.html` inclui canonical, Open Graph, Twitter Cards e dados estruturados `SoftwareApplication`.
 
